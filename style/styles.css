@@ -1,0 +1,739 @@
+/* ######################### TEXT STYLING ######################### */
+.order-btn,
+.keyboard-section-date span,
+.footer span {
+  font-weight: 700;
+}
+
+.header-order-btn .order-btn {
+  color: rgba(22, 37, 66, 1);
+}
+
+.keyboard-section-title h1 {
+  font-weight: 900;
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  text-transform: uppercase;
+  color: rgba(22, 37, 66, 1);
+}
+
+.keyboard-section-date span,
+.order-btn {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  text-transform: uppercase;
+}
+
+.styles-for-p,
+.footer p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 500;
+  color: rgba(123, 139, 173, 1);
+  opacity: 0.8;
+}
+
+.keyboard-section-date span {
+  color: rgba(123, 139, 173, 1);
+  opacity: 0.9;
+}
+
+.keyboard-section-order-btn .order-btn {
+  color: rgba(255, 255, 255, 1);
+}
+
+.desc-container-title h2 {
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  text-transform: uppercase;
+  color: rgba(22, 37, 66, 1);
+}
+
+.card-title h3 {
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  text-transform: uppercase;
+  color: rgba(22, 37, 66, 1);
+}
+
+/* ######################### IMG TURN ON/OFF ######################### */
+
+img {
+  max-width: 100%;
+}
+
+.mobile-img {
+  display: block;
+}
+
+.tablet-img,
+.desktop-img {
+  display: none;
+}
+
+/* ######################### ELEMENT SPACING & STYLES ######################### */
+
+.page {
+  overflow-x: hidden;
+  padding: 4rem 2.4rem 5rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.keyboard-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.4rem;
+}
+
+.keyboard-section-p {
+  margin: 3.2rem 0 3.2rem 0;
+}
+
+.btn-date-cont {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.keyboard-section-image {
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 6.4rem -24px 0 0;
+  /* width: 372px;
+  height: 331px; */
+  align-self: flex-end;
+}
+
+.keyboard-section-image img {
+  max-width: 100%;
+}
+
+.order-btn {
+  width: 15rem;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.keyboard-section-order-btn .order-btn {
+  background-color: rgba(241, 103, 24, 1);
+}
+
+.header-order-btn .order-btn {
+  background-color: rgba(232, 239, 242, 1);
+}
+
+.two-keyboard-img-container {
+  display: flex;
+  gap: 2.4rem;
+  margin: 2.4rem 0 7.5rem 0;
+}
+
+.mobile-key-cont {
+  border-radius: 2rem;
+  overflow: hidden;
+  width: 22rem;
+  height: 19.3rem;
+  margin-left: -4.7rem;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.mobile-key-cont::before {
+  content: "";
+  position: absolute;
+  mix-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(241, 104, 24, 0.927);
+}
+
+.mobile-key-cont img {
+  width: 100%;
+  height: 100%;
+}
+
+.glass-keyboard {
+  border-radius: 2rem;
+  width: 22rem;
+  height: 19.3rem;
+}
+
+.desc-container,
+.cards-grid-section {
+  text-align: center;
+}
+
+.cards-grid-section {
+  margin: 11.1rem 0 0 0;
+}
+
+.card-title h3 {
+  display: inline-block;
+  width: 21.8rem;
+  margin: 4.8rem 0 2.4rem 0;
+}
+
+.desc-container-title h2 {
+  display: inline-block;
+  width: 21.6rem;
+}
+
+.desc-container-p {
+  margin-top: 2.4rem;
+}
+
+.card-icon {
+  width: 6.5rem;
+  height: 6.5rem;
+  background-color: rgba(241, 103, 24, 1);
+  border-radius: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card:not(:last-of-type) .card-p {
+  margin-bottom: 6.4rem;
+}
+
+.footer {
+  margin-top: 9.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-btn {
+  transition: all 0.5s;
+}
+
+.header-order-btn .order-btn:hover {
+  background-color: rgba(22, 37, 66, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.keyboard-section-order-btn .order-btn:hover {
+  background-color: rgba(255, 155, 98, 1);
+}
+
+@media screen and (min-width: 767px) {
+  /* ######################### TEXT STYLING ######################### */
+  .order-btn,
+  .keyboard-section-date span,
+  .footer span {
+    font-weight: 700;
+  }
+
+  .header-order-btn .order-btn {
+    color: rgba(22, 37, 66, 1);
+  }
+
+  .keyboard-section-title h1 {
+    font-weight: 900;
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+    color: rgba(22, 37, 66, 1);
+  }
+
+  .keyboard-section-date span,
+  .order-btn {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-transform: uppercase;
+  }
+
+  .styles-for-p,
+  .footer p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 500;
+    color: rgba(123, 139, 173, 1);
+  }
+
+  .keyboard-section-date span {
+    color: rgba(123, 139, 173, 1);
+  }
+
+  .keyboard-section-order-btn .order-btn {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .desc-container-title h2 {
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    text-transform: uppercase;
+    color: rgba(22, 37, 66, 1);
+  }
+
+  .card-title h3 {
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    text-transform: uppercase;
+    color: rgba(22, 37, 66, 1);
+  }
+
+  /* ######################### IMG TURN ON/OFF ######################### */
+
+  img {
+    max-width: 100%;
+  }
+
+  .tablet-img {
+    display: inline-block;
+  }
+
+  .mobile-img,
+  .desktop-img {
+    display: none;
+  }
+
+  /* ######################### ELEMENT SPACING & STYLES ######################### */
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .page {
+    overflow-x: hidden;
+    padding: 4rem 4rem 4.3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 768px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .keyboard-section {
+    display: flex;
+    flex-direction: row;
+    margin: 6.2rem 0 4rem 0;
+    align-items: center;
+    gap: 6.9rem;
+  }
+
+  .keyboard-section-p {
+    margin: 3.4rem 0 3.9rem 0;
+    width: 34rem;
+  }
+
+  .btn-date-cont {
+    display: flex;
+    align-items: center;
+    gap: 3.7rem;
+  }
+
+  .keyboard-section-image {
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: unset;
+    align-self: flex-end;
+    flex: 1 0 478px;
+    /* margin-left: 6.9rem; */
+  }
+
+  .keyboard-section-image img {
+    /* width: 100%; */
+  }
+
+  .keyboard-text-cont {
+    /* margin-right: 6.9rem; */
+  }
+
+  .order-btn {
+    width: 17.5rem;
+    height: 5.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+
+  .keyboard-section-order-btn .order-btn {
+    background-color: rgba(241, 103, 24, 1);
+  }
+
+  .header-order-btn .order-btn {
+    background-color: rgba(232, 239, 242, 1);
+  }
+
+  .two-keyboard-img-container {
+    display: flex;
+    gap: 2.4rem;
+    margin: 2.4rem 0 7.5rem 0;
+    height: 32rem;
+  }
+
+  .mobile-key-cont {
+    border-radius: 2rem;
+    overflow: hidden;
+    width: unset;
+    height: unset;
+    margin-left: unset;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .mobile-key-cont::before {
+    content: "";
+    position: absolute;
+    mix-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 104, 24, 0.927);
+  }
+
+  .mobile-key-cont img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .glass-keyboard {
+    border-radius: 2rem;
+    width: unset;
+    height: unset;
+    flex: 1;
+  }
+
+  .desc-container,
+  .cards-grid-section {
+    text-align: unset;
+  }
+
+  .desc-container {
+    display: flex;
+    gap: 7.5rem;
+  }
+
+  .cards-grid-section {
+    margin: 14.2rem 0 0 0;
+    display: grid;
+    grid-template-columns: 281px 281px;
+    grid-auto-rows: auto;
+    row-gap: 7.2rem;
+    column-gap: 6.9rem;
+  }
+
+  .card-title h3 {
+    display: inline-block;
+    width: 21.8rem;
+    margin: 4rem 0 2.4rem 0;
+  }
+
+  .desc-container-title h2 {
+    display: inline-block;
+    width: 21.6rem;
+  }
+
+  .desc-container-p {
+    margin-top: unset;
+    width: 38.9rem;
+  }
+
+  .card-icon {
+    width: 6.5rem;
+    height: 6.5rem;
+    background-color: rgba(241, 103, 24, 1);
+    border-radius: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: unset;
+  }
+
+  .card:not(:last-of-type) .card-p {
+    margin-bottom: unset;
+  }
+
+  .footer {
+    margin-top: 14.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  /* ######################### TEXT STYLING ######################### */
+  .order-btn,
+  .keyboard-section-date span,
+  .footer span {
+    font-weight: 700;
+  }
+
+  .header-order-btn .order-btn {
+    color: rgba(22, 37, 66, 1);
+  }
+
+  .keyboard-section-title h1 {
+    font-weight: 900;
+    font-size: 5.6rem;
+    line-height: 5.6rem;
+    text-transform: uppercase;
+    color: rgba(22, 37, 66, 1);
+  }
+
+  .keyboard-section-date span,
+  .order-btn {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-transform: uppercase;
+  }
+
+  .styles-for-p,
+  .footer p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 500;
+    color: rgba(123, 139, 173, 1);
+  }
+
+  .keyboard-section-date span {
+    color: rgba(123, 139, 173, 1);
+  }
+
+  .keyboard-section-order-btn .order-btn {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .desc-container-title h2 {
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    text-transform: uppercase;
+    color: rgba(22, 37, 66, 1);
+  }
+
+  .card-title h3 {
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    text-transform: uppercase;
+    color: rgba(22, 37, 66, 1);
+  }
+
+  /* ######################### IMG TURN ON/OFF ######################### */
+
+  img {
+    max-width: 100%;
+  }
+
+  .desktop-img {
+    display: inline-block;
+  }
+
+  .mobile-img,
+  .tablet-img {
+    display: none;
+  }
+
+  body {
+    background-image: url(../assets/shared/pattern-square.svg),
+      url(../assets/shared/pattern-square.svg);
+    background-position: top 890px left -125px, top 196px right -125px;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  /* ######################### ELEMENT SPACING & STYLES ######################### */
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .page {
+    overflow-x: hidden;
+    padding: 5.5rem 16.5rem 4rem 16.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .keyboard-section {
+    display: flex;
+    flex-direction: row;
+    margin: 8.3rem 0 3rem 0;
+    align-items: center;
+  }
+
+  .keyboard-section-p {
+    margin: 3.4rem 0 3.9rem 0;
+  }
+
+  .btn-date-cont {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .keyboard-section-image {
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: unset;
+    align-self: flex-end;
+    flex: 1 0 478px;
+  }
+
+  .keyboard-section-image img {
+    /* width: 100%; */
+  }
+
+  .keyboard-text-cont {
+    /* margin-right: 6.9rem; */
+  }
+
+  .order-btn {
+    width: 17.5rem;
+    height: 5.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+
+  .keyboard-section-order-btn .order-btn {
+    background-color: rgba(241, 103, 24, 1);
+  }
+
+  .header-order-btn .order-btn {
+    background-color: rgba(232, 239, 242, 1);
+  }
+
+  .two-keyboard-text-section {
+    display: flex;
+    gap: 12.5rem;
+    margin: unset;
+    align-items: center;
+  }
+
+  .two-keyboard-img-container {
+    margin: unset;
+    height: unset;
+  }
+
+  .mobile-key-cont {
+    border-radius: 2rem;
+    overflow: hidden;
+    width: unset;
+    height: unset;
+    margin-left: unset;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 22.5rem;
+  }
+
+  .mobile-key-cont::before {
+    content: "";
+    position: absolute;
+    mix-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 104, 24, 0.927);
+  }
+
+  .mobile-key-cont img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .glass-keyboard {
+    border-radius: 2rem;
+    width: unset;
+    height: unset;
+    flex: 1;
+    max-width: 44.5rem;
+  }
+
+  .desc-container,
+  .cards-grid-section {
+    text-align: unset;
+  }
+
+  .desc-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+  }
+
+  .cards-grid-section {
+    margin: 14.2rem 0 0 0;
+    display: flex;
+    gap: 3rem;
+  }
+
+  .card-title h3 {
+    display: inline-block;
+    width: 21.8rem;
+    margin: 4.8rem 0 2.4rem 0;
+  }
+
+  .desc-container-title h2 {
+    display: inline-block;
+    width: 21.6rem;
+  }
+
+  .desc-container-p {
+    margin-top: unset;
+    width: 28.9rem;
+  }
+
+  .card-icon {
+    width: 6.5rem;
+    height: 6.5rem;
+    background-color: rgba(241, 103, 24, 1);
+    border-radius: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: unset;
+  }
+
+  .card:not(:last-of-type) .card-p {
+    margin-bottom: unset;
+  }
+
+  .footer {
+    margin-top: 14.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
