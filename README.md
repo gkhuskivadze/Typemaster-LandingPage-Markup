@@ -7,6 +7,9 @@
 - [Author](#author)
 
 ### Screenshots
+![Screenshot](Mobile.png)
+![Screenshot](Tablet.png)
+![Screenshot](Desktop.png)
 
 ### Links
 
